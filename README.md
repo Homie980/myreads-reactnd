@@ -1,7 +1,7 @@
 # MyReads 📚️ ⚛️ Project
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 MyReads is a bookshelf web application, allows a user to categorize books in a shelves whether they've read, currently reading or want to read. The project uses modern react hooks and demonstrates how data and state is managed in react. 
 
