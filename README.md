@@ -1,15 +1,22 @@
-# MyReads Project
+# MyReads 📚️ ⚛️ Project
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+MyReads is a bookshelf web application, allows a user to categorize books in a shelves whether they've read, currently reading or want to read. The project uses modern react hooks and demonstrates how data and state is managed in react. 
 
 ## TL;DR
 
 To get started developing right away:
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+install all project dependencies with:
+```bash
+npm i
+```
+start the development server with:
+```bash
+npm start
+```
 
 ## What You're Getting
 ```bash
@@ -23,12 +30,23 @@ To get started developing right away:
 └── src
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
     ├── App.js # This is the root of your app. Contains static HTML right now.
+    ├── tempData.js # contains temp data and bookshelves array
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
     ├── icons # Helpful images for your app. Use at your discretion.
     │   ├── add.svg
     │   ├── arrow-back.svg
     │   └── arrow-drop-down.svg
+    ├── components # App Components
+    │   ├── AddBook.js
+    │   ├── Book.js
+    │   ├── BookSearch.js
+    │   ├── BookShelf.js
+    │   ├── BookShelfChanger
+    │   ├── BookShelfContainer.js
+    │   ├── SearchBar.js
+    │   ├── SearchResults.js
+    │   └── BookList.js
     ├── index.css # Global styles. You probably won't need to change anything here.
     └── index.js # You should not need to modify this file. It is used for DOM rendering only.
 ```
